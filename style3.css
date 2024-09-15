@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(gambar/fie30.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 8%;
+    border-bottom: 1px salmon;
+}
+
+
+
+* logo {
+    color: palevioletred;
+    font-size:  35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+
+    color:rgb(109, 22, 36);
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: traslateY(-50%);
+}
+
+h1 {
+    color: rgb(199, 107, 107);
+    font-size: 37px;
+    margin:  10px 0px 10px;
+
+}
+h3 {
+    color: rgb(197, 152, 152);
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+h4{
+    color: aquamarine;
+    font-size:30px ;
+
+}
+
+.About {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: gray;
+   
+.About-me{
+  align-items: center;
+
+}
+
+    
+}
+.About img{
+    
+    width: 305px;
+    height: auto;
+
+
+}
+
+
+.About-text h2 p{
+    color: rgb(10, 8, 8);
+    letter-spacing:  1px;
+    font-size: 12px;
+    line-height: 28px;
+    margin-bottom: 45px;
+
+}.About-text h2{
+    color: rgb(105, 60, 75);
+    letter-spacing:  2px;
+    font-size: 65px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+ }
+
+.About-text {
+    width: 500px;
+}

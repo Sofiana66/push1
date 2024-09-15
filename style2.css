@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(gambar/fie40.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+
+
+
+* logo {
+    color: palevioletred;
+    font-size:  35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+
+    color:rgb(109, 22, 36);
+    transition: .4s;
+}
+
+.home{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: traslateY(-50%);
+}
+
+h1 {
+    color: rgb(199, 107, 107);
+    font-size: 37px;
+    margin:  10px 0px 10px;
+
+}
+h3 {
+    color: rgb(197, 152, 152);
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: rgb(105, 146, 228);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.news form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.news form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid blue;
+    outline:  none;
+    border-radius: 30px;
+
+} 
+.news form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline:  none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: brown;
+    box-shadow: 0px 0px 5px black, 0px 0px 5px rgb(180, 85, 85);
+    top: 6px;
+    right: 6px;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: gray;
+
+}
+.about img{
+    height: auto;
+    width: 450px;
+
+}
+ .about-text {
+    width:  500px;
+ }
+
+ .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .about-text h2{
+    color: rgb(105, 60, 75);
+    letter-spacing:  2px;
+    font-size: 65px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+ }
+
+ .about-text h5{
+    color: brown;
+    letter-spacing:  2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+ }
+ .about-text p{
+    color: rgb(10, 8, 8);
+    letter-spacing:  1px;
+    font-size: 12px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    
+
+ }
+
+ button {
+    background-color: rgb(83, 180, 164);
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+ }
+
+ button:hover{
+    background-color: rgb(107, 46, 49);
+    border: 2px brown;
+    cursor: pointer;
+ }
+
+
+ .galery{
+    background-color: darkolivegreen;
+    margin: none;
+    padding: 50px;
+    font-size: 45px;
+    color: rgb(11, 22, 126);
+ }
+ .galery img {
+    height: auto;
+    width: 120px;
+    
+ }
+
+
+
+
+ .video h3 {
+    color: rgb(24, 2, 2);
+    margin-top: 20px;
+    padding: 1px;
+    text-size-adjust: 20px;
+
+
+
+ }
+
+
+
+
+ .kontak{
+    background-color: rgb(105, 60, 75);
+    border: 100% pink;
+    cursor: pointer;
+    padding: 50px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+ }
+ .kontak a {
+    color: rgb(92, 11, 18);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius:  50%;
+    margin:  22px 10px;
+    text-decoration: none;
+    color: rgb(92, 6, 6);
+    font-size: 20px;
+
+ }
+ 
+
+ .kontak p{
+    width: auto;
+    height: 60px;
+    color: #dbb6cb;
+    font-size: 25px;
+   
+
+  
+ }
+
+ .kontak i{
+    color: rgb(134, 132, 12);
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .kontak  a {
+    width: 50px;
+    height: 45px;
+    background: rgb(10, 75, 173);
+    display: flex;
+    border-radius: 60%;
+    justify-content: center;
+    color: rgb(108, 108, 139);
+    align-items: center;
+    text-decoration: none;
+    
+ }
+
+ .kontak a:hover{
+    background-color: rgb(5, 4, 5);
+    border-radius: 70%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+
+
+ footer  {
+    position: relative;
+    background-color: rgb(126, 72, 81);
+    font-size: 17px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+ }

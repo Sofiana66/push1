@@ -1,0 +1,92 @@
+body{
+    background-color: darkslategray;
+}
+
+.container{
+
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position:relative;
+}
+.intro h1   { 
+
+    width: 800%;
+    height: 70px;
+    padding: 20%;
+    border-radius: 10px;
+    min-height: 0px;
+    position: relative;
+    color: rgb(5, 31, 37);
+    margin: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-direction: column;
+    
+}
+
+ .intro h3 {
+    width: 900%;
+    height: 80px;
+    padding: 3rem;
+    border-radius: 10px;
+    min-height: 10px;
+    position: relative;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    flex-direction: column;
+    color: rgb(66, 25, 52);
+
+   
+ }
+
+ .profile-card {
+    background-color: rgb(184, 128, 165);
+    width: 50%;
+    height: 700px;
+    padding: 0%;
+    border-radius: 10px;
+    min-height: 400px;
+    position: relative;
+    color: rgb(14, 3, 4);
+    margin: 0%;
+    display: inline-table;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+ }
+ 
+.profile-pic {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    
+ img {
+        border-radius: 40%;
+
+        
+    }
+}
+
+
+.kontak fa {
+    font-size: 80px;
+    color: rgb(61, 153, 53);
+
+}
+.alamat a{
+    align-items : center;
+    margin: 40px;
+    padding: 40px;
+    font-size: 30px;
+    
+    
+}
